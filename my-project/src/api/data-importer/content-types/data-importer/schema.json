@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_importers",
+  "info": {
+    "singularName": "data-importer",
+    "pluralName": "data-importers",
+    "displayName": "dataImporter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
